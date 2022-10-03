@@ -370,6 +370,7 @@ button:focus{
     margin-right: 30px;
     /* outline: 1px solid #EEEEEE; */
     margin-bottom: 30px;
+    width: calc((100% - 60px) / 3);
 }
 
 
