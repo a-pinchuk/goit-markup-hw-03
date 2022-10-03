@@ -41,7 +41,7 @@ body {
 
 .main-nav {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .header {
@@ -74,7 +74,9 @@ body {
 .address-nav {
     display: flex;
     margin-left: auto;
+    
 }
+
 
 .address-nav .links:not(:last-child) {
     margin-right: 50px;
@@ -118,6 +120,8 @@ body {
         color: var(--secondary-text-color);
         text-decoration: none;
         list-style: none;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .header .address-link:hover,
