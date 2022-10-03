@@ -26,6 +26,12 @@ body {
     margin: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* UTILITIES */
 .lists {
     padding: 0;
@@ -136,21 +142,21 @@ h1,h2,h3,h4,h5,h6 {
 
     /* MAIN */
 .hero {
+    padding: 200px 200px;
+    background-color: var(--secondary-background-color);
     text-align: center;
-    background-color: #2F303A;
 }
 
 .hero .title {
+        margin: 0 auto;
+        width: 696px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-top: 0;
         margin-bottom: 30px;
-        background-color: var(--secondary-background-color);
 }
 
 button {
@@ -289,11 +295,10 @@ button:focus{
 }
 
 .footer .logo {
-    margin-bottom: 20px;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
 }
 
 .footer .logo .web{
@@ -304,23 +309,30 @@ button:focus{
 .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
+
 }
 
 .footer .address {
-        line-height: 1.71;
-        color: var(--secondary-text-color);
-        text-decoration: none;
-        list-style: none;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    list-style: none;
 }
 
 .lists .links:not(:last-child) {
     margin-bottom: 9px;
 }
 
+.address .lists{
+    margin-top: 20px;
+}
+
 .address .street {
     font-weight: 400;
     line-height: 1.71;
     color: #FFFFFF;
+    font-style: normal;
+    
 }
 
 .footer .address:hover,
