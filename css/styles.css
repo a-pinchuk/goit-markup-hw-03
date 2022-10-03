@@ -359,35 +359,41 @@ button:focus{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .portfolio-list {
     margin-right: 30px;
-    outline: 1px solid #EEEEEE;
+    /* outline: 1px solid #EEEEEE; */
     margin-bottom: 30px;
+}
+
+
+.lower-content {
+    border: 1px solid #eeeeee;
+    border-top: transparent;
+    padding: 20px 24px;
 }
 
 .portfolio-list:nth-child(3n){
     margin-right: 0;
 }
 
+
 .examples {
     color: var(--primary-text-color);
     text-decoration: none;
-    
-    
 }
 
 .examples img {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    display: block;
 }
 
 .examples .title {
     margin-top: 0;
     margin-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
 
     font-weight: 700;
     font-size: 18px;
@@ -402,8 +408,5 @@ button:focus{
         color: var(--secondary-text-color);
         margin-top: 0;
         margin-bottom: 0;
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-bottom: 20px;
 }
 
